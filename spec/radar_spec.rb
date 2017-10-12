@@ -44,4 +44,12 @@ RSpec.describe Radar, ".status_for" do
       }.to raise_error Radar::NoSuchAirport
     end
   end
+
+  context "some crappy crap" do
+    it "does some crappy crap"
+      puts "Sleeping......"
+      sleep 20
+      puts "Done sleeping!"
+    end
+  end
 end

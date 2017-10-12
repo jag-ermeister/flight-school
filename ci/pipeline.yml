@@ -17,5 +17,6 @@ jobs:
   plan:
   - get: flight-school
     passed: [test-app]
+    trigger: true
   - task: tests
     file: flight-school/build.yml

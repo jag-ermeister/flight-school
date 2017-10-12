@@ -46,7 +46,7 @@ RSpec.describe Radar, ".status_for" do
   end
 
   context "some crappy crap" do
-    it "does some crappy crap"
+    it "does some crappy crap" do
       puts "Sleeping......"
       sleep 20
       puts "Done sleeping!"
